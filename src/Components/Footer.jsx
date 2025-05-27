@@ -8,11 +8,11 @@ const Footer = () => {
       className="px-4 mt-6 md:mt-14 lg:mt-20 bg-blue-900 pt-10 scroll-smooth"
       id="Footer"
     >
-      <div className="container mx-auto fl ex flex-col md:flex-row justify-between items-center">
+      <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
         <div className="w-full md:w-1/3 mb-8 md:mb-0">
           <img src={assest.logo} alt="" />
           <p className="text-gray-400 mt-4">
-            Welcome to Home 2 Home, your trusted partner in real estate. With
+            Welcome to Comfort Estate, your trusted partner in real estate. With
             years of expertise and a passion for connecting people to their
             dream properties
           </p>
@@ -77,7 +77,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="border-t border-blue-700 py-4 mt-10 text-center text-gray-300">
+      <div className="border-t border-blue-700 py-4 mt-10 text-center text-gray-300 text-xs">
         Copyright 2025 @ comfort. All Right Reserved.
       </div>
     </div>

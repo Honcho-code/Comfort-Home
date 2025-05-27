@@ -27,7 +27,7 @@ const Contact = () => {
                 id="name"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
-                className="border px-2 py-3 w-full mb-4 rounded border-gray-500"
+                className="border px-2 py-2 w-full mb-4 rounded border-gray-500"
               />
             </div>
             <div>
@@ -38,7 +38,7 @@ const Contact = () => {
                 id="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="border px-2 py-3 w-full mb-4 rounded border-gray-500"
+                className="border px-2 py-2 w-full mb-4 rounded border-gray-500"
               />
             </div>
             <div>
@@ -50,7 +50,7 @@ const Contact = () => {
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
                 className="border px-2 py-3 w-full mb-4 rounded border-gray-500 resize-none"
-                rows={6}
+                rows={4}
               />
             </div>
             <button className="bg-blue-900 px-8 py-3 text-white rounded text-lg font-medium cursor-pointer">Submit</button>
